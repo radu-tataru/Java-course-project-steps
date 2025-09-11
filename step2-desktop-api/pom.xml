@@ -28,7 +28,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.qa.step2.BrowserLauncherApp</mainClass>
+                    <mainClass>com.example.app.SimpleFileReader</mainClass>
                 </configuration>
             </plugin>
         </plugins>

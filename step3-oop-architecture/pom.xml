@@ -28,7 +28,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.qa.step3.FileProcessorApp</mainClass>
+                    <mainClass>com.example.app.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
