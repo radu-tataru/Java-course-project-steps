@@ -25,6 +25,7 @@
         <module>step2-desktop-api</module>
         <module>step3-oop-architecture</module>
         <module>step4-design-patterns</module>
+        <module>step5-testing-automation</module>
     </modules>
 
     <dependencyManagement>

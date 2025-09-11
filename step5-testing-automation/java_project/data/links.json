@@ -1,0 +1,14 @@
+[
+  {
+    "name": "JUnit 5",
+    "url": "https://junit.org"
+  },
+  {
+    "name": "Maven",
+    "url": "https://maven.apache.org"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com"
+  }
+]
