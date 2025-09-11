@@ -1,0 +1,5 @@
+name,url,category
+Selenium,https://www.selenium.dev,Testing
+JUnit,https://junit.org,Framework
+TestNG,https://testng.org,Framework
+Cucumber,https://cucumber.io,BDD

@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com",
+      "category": "Search"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "category": "Development"
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "category": "Learning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "name": "Selenium",
+      "url": "https://www.selenium.dev",
+      "category": "Testing",
+      "description": "Web automation framework"
+    },
+    {
+      "name": "JUnit",
+      "url": "https://junit.org",
+      "category": "Framework",
+      "description": "Java testing framework"
+    },
+    {
+      "name": "TestNG",
+      "url": "https://testng.org",
+      "category": "Framework", 
+      "description": "Testing framework for Java"
+    },
+    {
+      "name": "Cucumber",
+      "url": "https://cucumber.io",
+      "category": "BDD",
+      "description": "Behavior-driven development framework"
+    }
+  ]
+}
