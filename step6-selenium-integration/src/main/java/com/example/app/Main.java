@@ -17,14 +17,24 @@ public class Main {
             List<String> allLinks = readAllLinks();
             Logger.getInstance().log("Total links found: " + allLinks.size());
             
+            // NEW: Enhanced JSON reading with title verification
+            List<LinkData> enhancedLinks = readEnhancedJsonData();
+            Logger.getInstance().log("Enhanced JSON links found: " + enhancedLinks.size());
+            
             // NEW: Use Selenium instead of Desktop API
             SeleniumLinkOpener opener = new SeleniumLinkOpener();
             
-            // Open each link with Selenium WebDriver
+            // Open regular links first (TXT, CSV, basic JSON)
+            Logger.getInstance().log("\n=== Opening Basic Links ===");
             for (String link : allLinks) {
                 opener.openLink(link);
-                
-                // Wait a bit between opening links to see the results
+                Thread.sleep(2000);
+            }
+            
+            // Open enhanced JSON links with title verification
+            Logger.getInstance().log("\n=== Opening Enhanced Links with Verification ===");
+            for (LinkData linkData : enhancedLinks) {
+                opener.openLinkWithVerification(linkData.getUrl(), linkData.getExpectedTitle());
                 Thread.sleep(2000);
             }
             
@@ -41,6 +51,12 @@ public class Main {
         
         System.out.println("\n🎉 All links have been processed with Selenium WebDriver!");
         System.out.println("Check the log file for details: java_project/data/activity.log");
+        System.out.println("Check screenshots in: java_project/screenshots/");
+    }
+    
+    private static List<LinkData> readEnhancedJsonData() throws IOException {
+        JsonLinkDataReader jsonDataReader = new JsonLinkDataReader();
+        return jsonDataReader.readLinkData(DATA_DIR + "links.json");
     }
     
     private static List<String> readAllLinks() throws IOException {
