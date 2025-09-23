@@ -1,0 +1,22 @@
+[
+  {
+    "name": "JUnit 5",
+    "url": "https://junit.org",
+    "expectedTitle": "JUnit 5"
+  },
+  {
+    "name": "Maven",
+    "url": "https://maven.apache.org",
+    "expectedTitle": "Maven"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "expectedTitle": "GitHub"
+  },
+  {
+    "name": "Selenium WebDriver",
+    "url": "https://selenium.dev",
+    "expectedTitle": "Selenium"
+  }
+]
