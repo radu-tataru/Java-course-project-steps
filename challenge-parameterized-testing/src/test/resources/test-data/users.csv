@@ -1,0 +1,17 @@
+username,email,password,shouldBeValid,testCase
+john_doe,john@example.com,Password123,true,Valid user - all fields correct
+alice_smith,alice@company.org,SecureP@ss1,true,Valid user - strong password
+bob,bob@test.com,MyPassword99,true,Valid user - simple but valid
+ab,short@test.com,Password123,false,Invalid - username too short (less than 3 chars)
+this_is_way_too_long_username,long@test.com,Password123,false,Invalid - username too long (over 20 chars)
+1startswithnumber,test@test.com,Password123,false,Invalid - username starts with number
+validuser,not-an-email,Password123,false,Invalid - email missing @ symbol
+validuser,missing@domain,Password123,false,Invalid - email missing TLD
+validuser,@nodomain.com,Password123,false,Invalid - email missing local part
+validuser,valid@email.com,short,false,Invalid - password too short (less than 8 chars)
+validuser,valid@email.com,alllowercase,false,Invalid - password lacks variety (only lowercase)
+validuser,valid@email.com,12345678,false,Invalid - password lacks variety (only digits)
+,empty@test.com,Password123,false,Invalid - empty username
+validuser,,Password123,false,Invalid - empty email
+validuser,valid@email.com,,false,Invalid - empty password
+,,,,false,Invalid - all fields empty

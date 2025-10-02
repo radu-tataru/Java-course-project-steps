@@ -26,6 +26,7 @@
         <module>step3-oop-architecture</module>
         <module>step4-design-patterns</module>
         <module>step5-testing-automation</module>
+        <module>challenge-parameterized-testing</module>
         <module>step6-selenium-integration</module>
         <module>step7-page-object-model</module>
         <module>step8-cucumber-bdd</module>
