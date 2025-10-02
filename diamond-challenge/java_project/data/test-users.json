@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "type": "standard",
+      "description": "Standard user with full access to all features"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "type": "locked",
+      "description": "User that has been locked out due to multiple failed login attempts"
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce",
+      "type": "problem",
+      "description": "User that encounters various issues throughout the site"
+    },
+    {
+      "username": "performance_glitch_user",
+      "password": "secret_sauce",
+      "type": "performance",
+      "description": "User that experiences performance issues (delays)"
+    }
+  ],
+  "testProducts": [
+    {
+      "name": "Sauce Labs Backpack",
+      "price": 29.99,
+      "category": "backpack"
+    },
+    {
+      "name": "Sauce Labs Bike Light",
+      "price": 9.99,
+      "category": "light"
+    },
+    {
+      "name": "Sauce Labs Bolt T-Shirt",
+      "price": 15.99,
+      "category": "clothing"
+    },
+    {
+      "name": "Sauce Labs Fleece Jacket",
+      "price": 49.99,
+      "category": "clothing"
+    },
+    {
+      "name": "Sauce Labs Onesie",
+      "price": 7.99,
+      "category": "clothing"
+    }
+  ],
+  "checkoutData": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "zipCode": "12345"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "zipCode": "54321"
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "zipCode": "67890"
+    }
+  ]
+}

@@ -33,6 +33,7 @@
         <module>step8-cucumber-bdd</module>
         <module>step9-extent-reports</module>
         <module>step10-log4j-integration</module>
+        <module>diamond-challenge</module>
     </modules>
 
     <dependencyManagement>

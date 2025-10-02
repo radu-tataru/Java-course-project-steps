@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report Theme: standard, dark -->
+        <theme>dark</theme>
+
+        <!-- Document Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol: http, https -->
+        <protocol>https</protocol>
+
+        <!-- Title of the Report -->
+        <documentTitle>Diamond Challenge - SauceDemo Test Report</documentTitle>
+
+        <!-- Name of the Report -->
+        <reportName>Diamond Challenge Automation Report</reportName>
+
+        <!-- Timestamp Format -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+        <!-- CSS -->
+        <css>
+            .logo {
+                background: linear-gradient(135deg, #065f46 0%, #059669 100%);
+                padding: 20px;
+                text-align: center;
+                color: white;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        </css>
+
+        <!-- JavaScript -->
+        <js>
+            // Custom JavaScript can be added here
+        </js>
+    </configuration>
+</extentreports>
